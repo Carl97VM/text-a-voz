@@ -33,17 +33,17 @@ Este proyecto extrae una voz de un archivo de audio comprimido, la aísla median
 
 ##  Instalacion
 2. **Dependencias**
-``` bash
-pip install -r requirements.txt
-```
+    ``` bash
+    pip install -r requirements.txt
+    ```
 ## Ejecucion
 3. **Ejecucion**
-``` bash
-# 1. Convierte a WAV
-python 1_convertir.py
+    ``` bash
+    # 1. Convierte a WAV
+    python 1_convertir.py
 
-# 2. Extrae la voz limpia (Genera carpeta /separated/)
-python 2_aislar.py
+    # 2. Extrae la voz limpia (Genera carpeta /separated/)
+    python 2_aislar.py
 
-python 4_clonar_local.py
-```
+    python 4_clonar_local.py
+    ```
