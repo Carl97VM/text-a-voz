@@ -1,0 +1,19 @@
+# --- MOTOR DE AUDIO BÁSICO ---
+# Para convertir m4a/opus a wav
+pydub
+# Para leer/guardar audio burlando la seguridad de PyTorch 2.6
+soundfile
+
+# --- SEPARACIÓN DE PISTAS ---
+# IA para aislar la voz de la música de fondo
+demucs
+
+# --- CLONACIÓN DE VOZ LOCAL (COQUI TTS) ---
+# OBLIGATORIO: Mantener Numpy en versión 1.x para que el código C++ de TTS no se estrelle al compilar en Windows
+numpy<2.0
+
+# El motor principal de clonación de voz
+TTS
+
+# OBLIGATORIO: Bajar la versión de Transformers para evitar el error de "BeamSearchScorer" que Coqui TTS necesita
+transformers==4.33.2
